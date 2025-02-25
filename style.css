@@ -1,0 +1,123 @@
+#top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+
+#top-bar img, #top-bar form, #top-bar i {
+    margin-right: 20px; /* 모든 요소에 동일한 간격 적용 */
+}
+
+#top-bar i:last-child {
+    margin-right: 0; /* 마지막 아이콘은 오른쪽 여백 없음 */
+}
+
+form input[type="text"] {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.profile-section {
+    margin-top: 20px; 
+    float: left;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+}
+
+.profile-img {
+    width: 150px;  
+    height: 150px;  
+    border-radius: 50%; 
+    margin-right: 20px;
+    margin-left: 20px;
+    object-fit: cover; 
+}
+
+.user-info i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.user-info h1 {
+    font-size: 50px; 
+}
+
+.user-info {
+    display: flex;
+    align-items: center; 
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+#editProfileButton {
+    min-width: 300px;
+    padding: 10px 30px;
+    font-size: 16px;
+    align-items: flex-start;
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+
+body {
+    padding-top: 60px; /* Ensure body content does not overlap fixed top-bar */
+}
+
+.circle-pic {
+    border: solid white 1px;
+    border-radius: 50%;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.highlight-pic {
+    width: 35px;
+    height: 35px;
+}
+
+#highlight-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#stat_bar {
+    display: flex; /* Flex 컨테이너 설정 */
+    justify-content: space-around; /* 각 항목 사이에 균등한 간격을 두어 정렬 */
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;
+}
+
+.stat {
+    display: flex; /* Flex 설정 */
+    flex-direction: column; /* 항목을 세로로 나열 */
+    align-items: center; /* 세로 방향으로 중앙 정렬 */
+    margin: 0 10px; /* 좌우 마진 설정 */
+}
+
+.label, .number {
+    margin: 2px 0; /* 상하 간격 설정 */
+}
+
+#sub-icons {
+    display: flex;
+    justify-content: space-around; /* 하이라이트 간에 공간을 균등하게 분배 */
+    align-items: center;
+}
+
+#sub-icons > div {
+    margin: 10px 0; /* 상하로 10px의 마진을 추가 */
+}
+
