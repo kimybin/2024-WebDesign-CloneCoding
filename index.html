@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>instagram</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </head>
+
+    <body>
+        <div id="top-bar">
+            <img src="images/logo.jpeg" alt="Instagram Logo">
+            <form><input type="search" name="text" value="검색"></form>
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+            <i class="fa-solid fa-clock"></i>
+            <i class="fa-solid fa-heart"></i><br>
+        </div>
+
+        <div id="profile">
+            <div class="profile-section">
+                <img src="images/main_profile.jpeg" alt="프로필 이미지" id="profileImage" class="profile-img" style="cursor: pointer;">
+                <div class="user-info">
+                    <h1 id="username">my_sweetCream</h1>
+                    <i class="fa-solid fa-gear" id="changeUsernameIcon" style="cursor: pointer;"></i>
+                </div> 
+                <button id="editProfileButton">프로필 편집</button>
+            </div> 
+        </div>
+
+        <div>
+            <p>
+                <strong id="user-Info">My cute puppy</strong><br/>
+                <span id="summary">Welcome to the space for Cream !</span>
+            </p>
+            <p id="profileDetail">
+                <a href="http://www.my_sweetCream.com">http://www.my_sweetCream.com</a>
+            </p>
+        </div>
+
+        <div id="highlight-area">
+            <div class="highlight">
+                <div class="highlight-pic">
+                    <img class="circle-pic" src="images/highStory1.jpeg"/>
+                </div>
+                <div>
+                    🩶
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-pic">
+                    <img class="circle-pic" src="images/highStory2.jpeg"/>
+                </div>
+                <div>
+                    🩵
+                </div>
+            </div>
+        </div>
+
+        <div id="stat_bar">
+            <div class="stat">
+                <div class="label">게시물</div>
+                <div class="number">235</div>
+            </div>
+            <div class="stat">
+                <div class="label">팔로워</div>
+                <div class="number">999</div>
+            </div>
+            <div class="stat">
+                <div class="label">팔로우</div>
+                <div class="number">165</div>
+            </div>
+        </div>
+
+        <div id="sub-icons">
+            <div class="selected">
+                <i class="fa-solid fa-border-all"></i>
+            </div>
+            <div><i class="fa-solid fa-film"></i></div>
+            <div><i class="fa-regular fa-circle-play"></i></div>
+            <div><i class="fa-solid fa-bookmark"></i></div>
+            <div><i class="fa-solid fa-user-tag"></i></div>
+        </div>
+
+        <div>
+            <img src="images/thumnails_1.jpeg" width="32%"/>
+            <img src="images/thumnails_2.jpeg" width="32%"/>
+            <img src="images/thumnails_3.jpeg" width="32%"/>
+            <img src="images/thumnails_4.jpeg" width="32%"/>
+            <img src="images/thumnails_5.jpeg" width="32%"/>
+            <img src="images/thumnails_6.jpeg" width="32%"/>
+            <img src="images/thumnails_7.jpeg" width="32%"/>
+            <img src="images/thumnails_8.jpeg" width="32%"/>
+            <img src="images/thumnails_9.jpeg" width="32%"/>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
